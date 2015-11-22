@@ -1,28 +1,18 @@
-/*
+/* globals $: false */
+/* jshint strict: false */
 
-  In this file, I will build a function that allows the home page to be full screen when loaded.
-  The nav bar will be at the bottom, and will fix to the top when scrolled to.
-
-
-// */
 $(function () {
- // Defining a function to set size for #hero
-    function fullscreen(){
-        jQuery('#home-top').css({
-          height: (jQuery(window).height() - 50)
-        });
-    }
 
-    fullscreen();
-
-  // Run the function in case of window resize
-  jQuery(window).resize(function() {
-       fullscreen();
+  // set #home-top to full screen
+  function fullscreen(){
+    $('#home-top').css({
+      height: ($(window).height() - 50)
     });
+  }
 
+  // manage fixed nav on scroll
   var navbar = $('.navbar');
   var origOffsetY = navbar.offset().top;
-
   function scroll() {
     if ($(window).scrollTop() >= origOffsetY) {
       $('.navbar').addClass('sticky');
@@ -31,8 +21,13 @@ $(function () {
       $('.navbar').removeClass('sticky');
       $('.content').removeClass('navbar-padding');
     }
-
   }
+
+
+  fullscreen();
+  $(window).resize(function() {
+    fullscreen();
+  });
 
   document.onscroll = scroll;
 });
