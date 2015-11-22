@@ -2,7 +2,7 @@
   position: relative;
   @include background;
   background-color:brown;
-  height:600px;
+  min-height:400px;
   img {
     display: block;
     margin: 0 auto;
