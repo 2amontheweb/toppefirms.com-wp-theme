@@ -9,27 +9,47 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package Top_PE_Firms
+ * @package sassify
  */
 
 get_header(); ?>
 
-<div id="home-page">
-  <!-- HEADER
-       Placed here because this specific navbar is only appropriate for home page.
-       ============ -->
-  <header id="masthead" class="site-header" role="banner">
-    <?php get_template_part( 'template-parts/home', 'top' ); ?>
-    <?php get_template_part( 'template-parts/home', 'nav' ); ?>
-  </header><!-- #masthead -->
+  <div id="primary" class="content-area">
+    <main id="main" class="site-main" role="main">
 
-  <div id="primary" class="content">
-    <main id="main" role="main">
-      <?php get_template_part( 'template-parts/home', 'nominate' ); ?>
-      <?php get_template_part( 'template-parts/home', 'sponsor' ); ?>
-      <?php get_template_part( 'template-parts/home', 'meet' ); ?>
-      <?php get_template_part( 'template-parts/home', 'contact' ); ?>
+    <?php if ( have_posts() ) : ?>
+
+      <?php if ( is_home() && ! is_front_page() ) : ?>
+        <header>
+          <h1 class="page-title screen-reader-text"><?php single_post_title(); ?></h1>
+        </header>
+      <?php endif; ?>
+
+      <?php /* Start the Loop */ ?>
+      <?php while ( have_posts() ) : the_post(); ?>
+
+        <?php
+
+          /*
+           * Include the Post-Format-specific template for the content.
+           * If you want to override this in a child theme, then include a file
+           * called content-___.php (where ___ is the Post Format name) and that will be used instead.
+           */
+          get_template_part( 'template-parts/content', get_post_format() );
+        ?>
+
+      <?php endwhile; ?>
+
+      <?php the_posts_navigation(); ?>
+
+    <?php else : ?>
+
+      <?php get_template_part( 'template-parts/content', 'none' ); ?>
+
+    <?php endif; ?>
+
     </main><!-- #main -->
   </div><!-- #primary -->
-</div>
+
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>

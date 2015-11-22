@@ -10,6 +10,11 @@ $(function () {
     });
   }
 
+  fullscreen();
+  $(window).resize(function() {
+    fullscreen();
+  });
+
   // manage fixed nav on scroll
   var navbar = $('.navbar');
   var origOffsetY = navbar.offset().top;
@@ -22,12 +27,6 @@ $(function () {
       $('.content').removeClass('navbar-padding');
     }
   }
-
-
-  fullscreen();
-  $(window).resize(function() {
-    fullscreen();
-  });
 
   document.onscroll = scroll;
 });
