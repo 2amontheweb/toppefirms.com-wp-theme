@@ -50,11 +50,9 @@ a {
   transition: all 0.3s ease;
   cursor: pointer;
   &:visited,
-  &:focus {
-    text-decoration:none;
-  }
+  &:focus,
   &:hover {
-    text-decoration:underline;
+    text-decoration:none;
   }
 }
 

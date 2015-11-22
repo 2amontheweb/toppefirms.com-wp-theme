@@ -1,3 +1,109 @@
 #home-nominate {
   background: $grey;
+
+  .left {
+    @include aboveMobile {
+      padding-right: 10px;
+    }
+    @include mobile {
+      @include rem-fallback(padding-bottom, 1);
+    }
+  }
+  .right {
+    @include aboveMobile {
+      padding-left: 10px;
+    }
+  }
+
+  img.nominate {
+    float: right;
+  }
+  img.nominate,
+  img.hurry {
+    width: 100%;
+    @include aboveTablet {
+      max-width: 450px;
+    }
+    @include tablet {
+      max-width: 365px;
+    }
+    @include mobile {
+      max-width: 450px;
+      margin: 0 auto;
+      display: block;
+      float: none;
+    }
+  }
+
+  .download-container {
+    margin: 0 auto;
+    position: relative;
+    @include aboveTablet {
+      height: 298px;
+      max-width: 450px;
+    }
+    @include tablet {
+      height: 242px;
+      max-width: 365px;
+    }
+    @include mobile {
+      min-height: 298px;
+      max-width: 450px;
+    }
+    .button-container {
+      display: block;
+      background: $orange;
+      position: absolute;
+
+      @include aboveTablet {
+        width: 421px;
+        top: 43px;
+        left: 14px;
+        height: 255px;
+      }
+      @include tablet {
+        width: 340px;
+        top: 35px;
+        left: 13px;
+        height: 207px;
+      }
+      @include mobile {
+        width: 94%;
+        top: 11.5%;
+        left: 3%;
+        height: 255px;
+      }
+
+      h4 {
+        margin-top: 15px;
+        color: $grey;
+        max-width: 200px;
+        margin: 15px auto 0;
+        padding-bottom: 15px;
+        font-weight: 600;
+      }
+      .download-icon {
+        margin: 0 auto;
+        display: block;
+        border-radius: 50%;
+        @include tablet {
+          height: 105px;
+        }
+        @include mobile {
+          height: auto;
+        }
+      }
+      &:hover {
+        box-shadow: 0 6px 12px rgba(0,0,0, 0.175);
+        h4 {
+          transition: text-shadow 0.3s ease;
+          text-shadow: 0px 2px 4px rgba(0,0,0,0.25);
+        }
+        .download-icon {
+          transition: box-shadow 0.3s ease;
+          box-shadow: 0 6px 12px rgba(0,0,0, 0.175);
+        }
+      }
+    }
+  }
 }

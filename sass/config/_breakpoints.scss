@@ -18,6 +18,10 @@ $tablet-breakpoint: 991px !default;
   @media screen and (max-width: $breakpoint) { @content; }
 }
 
+@mixin aboveTablet($breakpoint: 992px) {
+  @media screen and (min-width: $breakpoint) { @content; }
+}
+
 /**********************
  * DESKTOP BREAKPOINT *
  **********************/
