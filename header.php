@@ -26,6 +26,7 @@
     <script src="<?php bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
 
     <script src="<?php bloginfo('template_directory') ?>/js/smooth-scroll.js"></script>
+    <script src="<?php bloginfo('template_directory') ?>/js/fixed-nav.js"></script>
 
     <?php wp_head(); ?>
 
