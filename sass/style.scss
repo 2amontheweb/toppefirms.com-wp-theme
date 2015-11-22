@@ -47,6 +47,12 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "mixins/mixins-master";
 
 /*--------------------------------------------------------------
+# Custom Variables
+--------------------------------------------------------------*/
+@import "base/colors";
+@import "base/fonts";
+
+/*--------------------------------------------------------------
 # Normalize
 --------------------------------------------------------------*/
 @import "normalize";

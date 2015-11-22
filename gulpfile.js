@@ -40,6 +40,11 @@ gulp.task('default', ['script', 'sass', 'watch']);
 gulp.task('zip', function() {
     return gulp.src([
       'css/*',
+      'fonts/**/*.eot',
+      'fonts/**/*.svg',
+      'fonts/**/*.ttf',
+      'fonts/**/*.woff',
+      'fonts/**/*.woff2',
       'img/**/*.png',
       'img/**/*.jpg',
       'inc/*',

@@ -1,0 +1,86 @@
+/***
+ * GASPAR
+ *********/
+
+ @font-face {
+  font-family: 'Gaspar';
+  src: url('./fonts/gaspar/gaspar_regular.eot');
+  src: url('./fonts/gaspar/gaspar_regular.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/gaspar/gaspar_regular.woff2') format('woff2'),
+  url('./fonts/gaspar/gaspar_regular.woff') format('woff'),
+  url('./fonts/gaspar/gaspar_regular.ttf') format('truetype'),
+  url('./fonts/gaspar/gaspar_regular.svg#gasparregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gaspar';
+    src: url('./fonts/gaspar/gaspar_regular_italic-webfont.eot');
+    src: url('./fonts/gaspar/gaspar_regular_italic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/gaspar/gaspar_regular_italic-webfont.woff2') format('woff2'),
+         url('./fonts/gaspar/gaspar_regular_italic-webfont.woff') format('woff'),
+         url('./fonts/gaspar/gaspar_regular_italic-webfont.ttf') format('truetype'),
+         url('./fonts/gaspar/gaspar_regular_italic-webfont.svg#gasparitalic') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gaspar';
+  src: url('./fonts/gaspar/gaspar_bold-webfont.eot');
+  src: url('./fonts/gaspar/gaspar_bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/gaspar/gaspar_bold-webfont.woff2') format('woff2'),
+  url('./fonts/gaspar/gaspar_bold-webfont.woff') format('woff'),
+  url('./fonts/gaspar/gaspar_bold-webfont.ttf') format('truetype'),
+  url('./fonts/gaspar/gaspar_bold-webfont.svg#gasparbold') format('svg');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gaspar';
+  src: url('./fonts/gaspar/gaspar_bold_italic-webfont.eot');
+  src: url('./fonts/gaspar/gaspar_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),
+  url('./fonts/gaspar/gaspar_bold_italic-webfont.woff2') format('woff2'),
+  url('./fonts/gaspar/gaspar_bold_italic-webfont.woff') format('woff'),
+  url('./fonts/gaspar/gaspar_bold_italic-webfont.ttf') format('truetype'),
+  url('./fonts/gaspar/gaspar_bold_italic-webfont.svg#gasparbold_italic') format('svg');
+  font-weight: 600;
+  font-style: italic;
+}
+
+/***
+ * Franklin Gothic
+ *********/
+
+ @font-face {
+  font-family: 'Franklin Gothic';
+  src: url('./fonts/franklin-gothic/franklin-gothic-medium.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Franklin Gothic';
+  src: url('./fonts/franklin-gothic/franklin-gothic-medium-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+ @font-face {
+  font-family: 'Franklin Gothic';
+  src: url('./fonts/franklin-gothic/franklin-gothic-book.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+ @font-face {
+  font-family: 'Franklin Gothic';
+  src: url('./fonts/franklin-gothic/franklin-gothic-book-italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+$gaspar: 'Gaspar', 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+$franklin: 'Franklin Gothic', Verdana, Geneva, sans-serif;
