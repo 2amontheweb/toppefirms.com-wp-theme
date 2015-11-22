@@ -4,6 +4,7 @@
  *
  * @package Top_PE_Firms
  */
+$media_kit_url = get_field('media_kit_url');
 ?>
 <div id="home-meet" class="home-section">
   <a name="media-kit" class="scroll-destination"></a>
@@ -15,7 +16,7 @@
       <div class="col-xs-12 col-sm-6 left">
         <div class="download-container">
           <img class="download-our-media-kit" src="<?php bloginfo('stylesheet_directory'); ?>/img/download-our-media-kit.png" alt="Download Our Media Kit">
-          <a class="button-container" href="http://www.jimmypocock.com" target="_blank">
+          <a class="button-container" href="<?php echo $media_kit_url; ?>" target="_blank">
             <h4>Download our Media Kit to learn more about Bauer Rock Media Group.</h4>
             <img class="download-icon" src="<?php bloginfo('stylesheet_directory'); ?>/img/download-icon.png" alt="Download your PDF nomination form now.">
           </a>

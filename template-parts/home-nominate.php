@@ -4,6 +4,7 @@
  *
  * @package Top_PE_Firms
  */
+$nomination_form_url = get_field('nomination_form_url');
 ?>
 
 <div id="home-nominate" class="home-section">
@@ -19,7 +20,7 @@
       <div class="col-xs-12 col-sm-6 right">
         <div class="download-container">
           <img class="hurry" src="<?php bloginfo('stylesheet_directory'); ?>/img/hurry-the-nomination-process-ends-soon.png" alt="Hurry! The nomination process ends soon!">
-          <a class="button-container" href="http://www.jimmypocock.com" target="_blank">
+          <a class="button-container" href="<?php echo $nomination_form_url; ?>" target="_blank">
             <h4>Download your PDF nomination form now.</h4>
             <img class="download-icon" src="<?php bloginfo('stylesheet_directory'); ?>/img/download-icon.png" alt="Download your PDF nomination form now.">
           </a>
