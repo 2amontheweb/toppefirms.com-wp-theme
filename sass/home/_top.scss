@@ -1,5 +1,23 @@
 #home-top {
-  h2 {
-    color: brown;
+  position: relative;
+  background-color:brown;
+  height:600px;
+  img {
+    display: block;
+    margin: 0 auto;
+  }
+  .image-container {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+  }
+  .logo-main {
+    margin-bottom: 35px
+  }
+  .nominate-link {
+    img {
+
+    }
   }
 }

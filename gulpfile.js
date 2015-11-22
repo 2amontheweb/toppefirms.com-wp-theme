@@ -22,7 +22,9 @@ gulp.task('sass', function () {
   var version = argv.version ? argv.version.replace(/-/g , '.') : 'No Version Number Given';
   gulp.src('./sass/**/*.scss')
     .pipe(sass().on('error', sass.logError))
-    .pipe(autoprefixer('last 10 version'))
+    .pipe(autoprefixer({
+      browsers: ['> 1%', 'last 2 versions', 'IE 8']
+    }))
     .pipe(concat('style.css'))
     .pipe(minifyCss({compatibility: 'ie8'}))
     .pipe(replace('/*!', '/*'))
