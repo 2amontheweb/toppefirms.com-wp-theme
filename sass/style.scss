@@ -127,9 +127,4 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 # Home
 --------------------------------------------------------------*/
-@import "home/top";
-@import "home/nav";
-@import "home/nominate";
-@import "home/sponsor";
-@import "home/meet";
-@import "home/contact";
+@import "home/config";

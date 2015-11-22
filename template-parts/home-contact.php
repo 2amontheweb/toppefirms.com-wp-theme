@@ -5,9 +5,8 @@
  * @package Top_PE_Firms
  */
 ?>
-
-<a name="contact"></a>
-<div id="home-contact">
+<div id="home-contact" class="home-section">
+  <a name="contact" class="scroll-destination"></a>
   <div class="container">
     <h2>Contact Us</h2>
     <div class="header-bottom-border"></div>

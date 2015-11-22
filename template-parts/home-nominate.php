@@ -6,8 +6,8 @@
  */
 ?>
 
-<a name="nomination-form"></a>
-<div id="home-nominate">
+<div id="home-nominate" class="home-section">
+  <a name="nomination-form" class="scroll-destination"></a>
   <div class="container">
     <h2>Nominate Your Firm</h2>
     <div class="header-bottom-border"></div>

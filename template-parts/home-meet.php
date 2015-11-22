@@ -5,9 +5,8 @@
  * @package Top_PE_Firms
  */
 ?>
-
-<a name="media-kit"></a>
-<div id="home-meet">
+<div id="home-meet" class="home-section">
+  <a name="media-kit" class="scroll-destination"></a>
   <div class="container">
     <h2>Meet the Top 50 Program Producer</h2>
     <div class="header-bottom-border"></div>

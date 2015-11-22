@@ -6,13 +6,12 @@
  */
 ?>
 
-<a name="sponsor-the-program"></a>
-<div id="home-sponsor">
+<div id="home-sponsor" class="home-section">
+  <a name="sponsor-the-program" class="scroll-destination"></a>
   <div class="container">
     <h2>Sponsor the Top 50 Program</h2>
     <div class="header-bottom-border"></div>
-    <h4>Put Your Firm Front and Center with the Top Middle Market Buyout Firms in the US</h4>
-    <h4><strong>These are just a few of the Sponsorshop categories. Contact us for more details.</strong></h4>
+    <h4>Put Your Firm Front and Center with the Top Middle Market Buyout Firms in the US<span class="strong">These are just a few of the Sponsorshop categories. Contact us for more details.</span></h4>
     <div class="row">
       <div class="col-xs-6 col-sm-3">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/investment-banking.jpg" alt="Hamilton &amp; Co. Investment Banking">

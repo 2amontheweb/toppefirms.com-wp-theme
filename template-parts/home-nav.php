@@ -6,7 +6,7 @@
  */
 ?>
 
-<nav class="navbar navbar-default menu" id="home-nav">
+<nav class="navbar" id="home-nav">
   <div class="container">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">

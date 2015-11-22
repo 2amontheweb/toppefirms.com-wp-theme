@@ -14,21 +14,22 @@
 
 get_header(); ?>
 
-<!-- HEADER
-     Placed here because this specific navbar is only appropriate for home page.
-     ============ -->
-<header id="masthead" class="site-header" role="banner">
-  <?php get_template_part( 'template-parts/home', 'top' ); ?>
-  <?php get_template_part( 'template-parts/home', 'nav' ); ?>
-</header><!-- #masthead -->
+<div id="home-page">
+  <!-- HEADER
+       Placed here because this specific navbar is only appropriate for home page.
+       ============ -->
+  <header id="masthead" class="site-header" role="banner">
+    <?php get_template_part( 'template-parts/home', 'top' ); ?>
+    <?php get_template_part( 'template-parts/home', 'nav' ); ?>
+  </header><!-- #masthead -->
 
-<div id="primary" class="content">
-  <main id="main" role="main">
-    <?php get_template_part( 'template-parts/home', 'nominate' ); ?>
-    <?php get_template_part( 'template-parts/home', 'sponsor' ); ?>
-    <?php get_template_part( 'template-parts/home', 'meet' ); ?>
-    <?php get_template_part( 'template-parts/home', 'contact' ); ?>
-  </main><!-- #main -->
-</div><!-- #primary -->
-
+  <div id="primary" class="content">
+    <main id="main" role="main">
+      <?php get_template_part( 'template-parts/home', 'nominate' ); ?>
+      <?php get_template_part( 'template-parts/home', 'sponsor' ); ?>
+      <?php get_template_part( 'template-parts/home', 'meet' ); ?>
+      <?php get_template_part( 'template-parts/home', 'contact' ); ?>
+    </main><!-- #main -->
+  </div><!-- #primary -->
+</div>
 <?php get_footer(); ?>
