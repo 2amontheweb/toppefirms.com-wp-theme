@@ -13,37 +13,37 @@
     <div class="header-bottom-border"></div>
     <h4>Put Your Firm Front and Center with the Top Middle Market Buyout Firms in the US<span class="strong">These are just a few of the Sponsorshop categories. Contact us for more details.</span></h4>
     <div class="row">
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/investment-banking.jpg" alt="Hamilton &amp; Co. Investment Banking">
-        <h6>Investment Banking</h6>
+        <h4>Investment Banking</h4>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/banks.jpg" alt="Southern Bank">
-        <h6>Banks</h6>
+        <h4>Banks</h4>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/private-jet.jpg" alt="Time Kills Deals Private Jet">
-        <h6>Private Jet</h6>
+        <h4>Private Jet</h4>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/lenders.jpg" alt="Unitranche Lenders">
-        <h6>Lenders</h6>
+        <h4>Lenders</h4>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/law-firms.jpg" alt="Crenshaw and Hammond Law Firms">
-        <h6>Law Firms</h6>
+        <h4>Law Firms</h4>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/consultancies.jpg" alt="Alpha Improvement Consultants">
-        <h6>Consultancies</h6>
+        <h4>Consultancies</h4>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/wealth-management.jpg" alt="Private Equity Professionals Wealth Management">
-        <h6>Wealth Management</h6>
+        <h4>Wealth Management</h4>
       </div>
-      <div class="col-xs-6 col-sm-3">
+      <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/due-diligence.jpg" alt="Elliot West Due Diligence">
-        <h6>Due Diligence</h6>
+        <h4>Due Diligence</h4>
       </div>
     </div>
   </div>

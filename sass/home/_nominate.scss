@@ -46,6 +46,9 @@
       height: 242px;
       max-width: 365px;
     }
+    @include aboveMobile {
+      float:left;
+    }
     @include mobile {
       min-height: 298px;
       max-width: 450px;
