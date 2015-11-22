@@ -1,3 +1,26 @@
 #home-contact {
   background: $white;
+  .container {
+    max-width: 475px;
+  }
+  .subheader {
+    border-bottom: 3px solid $grey;
+    @include rem-fallback(padding-bottom, 1);
+    @include rem-fallback(margin-bottom, 1);
+  }
+  .first {
+    @include mobile {
+      @include rem-fallback(padding-bottom, 1);
+    }
+  }
+  h4 {
+    padding-bottom: 0;
+  }
+  a {
+    color: $black;
+  }
+  .telephone-icon {
+    display: block;
+    margin: 20px auto;
+  }
 }
