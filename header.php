@@ -25,9 +25,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="<?php bloginfo('template_directory') ?>/js/bootstrap.min.js"></script>
 
-    <script src="<?php bloginfo('template_directory') ?>/js/smooth-scroll.js"></script>
-    <script src="<?php bloginfo('template_directory') ?>/js/fixed-nav.js"></script>
-
     <?php wp_head(); ?>
 
     <!-- HTML5 shiv and Respond.js IE8 support of HTML5 elements and media queries -->

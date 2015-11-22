@@ -5,6 +5,9 @@
 
 */
 
+/* globals $: false */
+/* jshint strict: false */
+
 $(function() {
   $('.smooth-scroll[href*=#]:not([href=#])').click(function() {
     if (window.location.pathname.replace(/^\//,'') === this.pathname.replace(/^\//,'') && window.location.hostname === this.hostname) {

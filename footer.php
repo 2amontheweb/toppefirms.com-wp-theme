@@ -41,5 +41,8 @@
       </footer><!-- #colophon -->
       <?php wp_footer(); ?>
     </div><!-- #page -->
+
+    <script src="<?php bloginfo('template_directory') ?>/js/bundled.js"></script>
+
   </body>
 </html>

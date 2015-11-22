@@ -1,4 +1,5 @@
-// jshint ignore: start
+/* globals $: false */
+/* jshint strict: false */
 
 $(document).ready(function () {
 
