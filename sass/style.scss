@@ -113,11 +113,16 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 @import "media/media";
 
 /*--------------------------------------------------------------
-# Home Top
+# Footer
 --------------------------------------------------------------*/
-@import "home/top";
+@import "footer/main";
 
 /*--------------------------------------------------------------
-# Home Nav
+# Home
 --------------------------------------------------------------*/
-@import "home/nav"
+@import "home/top";
+@import "home/nav";
+@import "home/nominate";
+@import "home/sponsor";
+@import "home/meet";
+@import "home/contact";

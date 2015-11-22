@@ -1,25 +1,25 @@
 /* globals $: false */
 /* jshint strict: false */
 
-$(document).ready(function () {
+// $(document).ready(function () {
 
-  var navbar = $('.navbar');
-  var origOffsetY = navbar.offset().top;
+//   var navbar = $('.navbar');
+//   var origOffsetY = navbar.offset().top;
 
-  function scroll() {
-    if ($(window).scrollTop() >= origOffsetY) {
-      $('.navbar').addClass('sticky');
-      $('.content').addClass('navbar-padding');
-    } else {
-      $('.navbar').removeClass('sticky');
-      $('.content').removeClass('navbar-padding');
-    }
+//   function scroll() {
+//     if ($(window).scrollTop() >= origOffsetY) {
+//       $('.navbar').addClass('sticky');
+//       $('.content').addClass('navbar-padding');
+//     } else {
+//       $('.navbar').removeClass('sticky');
+//       $('.content').removeClass('navbar-padding');
+//     }
 
-  }
+//   }
 
-  document.onscroll = scroll;
+//   document.onscroll = scroll;
 
-});
+// });
 
 /* affix the navbar after scroll below header */
 // $('#nav').affix({

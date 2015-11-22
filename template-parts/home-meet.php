@@ -7,7 +7,7 @@
 ?>
 
 <a name="media-kit"></a>
-<div id="meet">
+<div id="home-meet">
   <div class="container">
     <h2>Meet the Top 50 Program Producer</h2>
     <div class="header-bottom-border"></div>

@@ -27,6 +27,7 @@ get_header(); ?>
     <?php get_template_part( 'template-parts/home', 'nominate' ); ?>
     <?php get_template_part( 'template-parts/home', 'sponsor' ); ?>
     <?php get_template_part( 'template-parts/home', 'meet' ); ?>
+    <?php get_template_part( 'template-parts/home', 'contact' ); ?>
   </main><!-- #main -->
 </div><!-- #primary -->
 
