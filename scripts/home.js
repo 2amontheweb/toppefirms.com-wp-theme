@@ -5,7 +5,7 @@ $(function () {
 
   // set #home-top to full screen
   function fullscreen(){
-    $('#home-top').css({
+    $('#home-top, #home-top .overlay').css({
       height: ($(window).height() - 50)
     });
   }

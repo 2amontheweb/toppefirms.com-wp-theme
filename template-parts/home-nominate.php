@@ -12,7 +12,7 @@ $nomination_form_url = get_field('nomination_form_url');
   <div class="container">
     <h2>Nominate Your Firm</h2>
     <div class="header-bottom-border"></div>
-    <h4>Tell us why your firm is a top 50 firm!</h4>
+    <h4>Tell us why your firm is a Top 50 firm!</h4>
     <div class="row">
       <div class="col-xs-12 col-sm-6 left">
         <img class="nominate" src="<?php bloginfo('stylesheet_directory'); ?>/img/nominate-your-firm.jpg" alt="Nominate Your Firm">
