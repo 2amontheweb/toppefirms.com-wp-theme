@@ -4,15 +4,20 @@
  *
  * @package Top_PE_Firms
  */
+
+
+$nominate_header = get_field('nominate_header');
+$nominate_subheader = get_field('nominate_subheader');
 $nomination_form_url = get_field('nomination_form_url');
+
 ?>
 
 <div id="home-nominate" class="home-section">
   <a name="nomination-form" class="scroll-destination"></a>
   <div class="container">
-    <h2>Nominate Your Firm</h2>
+    <h2><?php echo $nominate_header; ?></h2>
     <div class="header-bottom-border"></div>
-    <h4>Tell us why your firm is a Top 50 firm!</h4>
+    <h4><?php echo $nominate_subheader; ?></h4>
     <div class="row">
       <div class="col-xs-12 col-sm-6 left">
         <img class="nominate" src="<?php bloginfo('stylesheet_directory'); ?>/img/nominate-your-firm.jpg" alt="Nominate Your Firm">

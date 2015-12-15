@@ -4,14 +4,19 @@
  *
  * @package Top_PE_Firms
  */
+
+
+$meet_header = get_field('meet_header');
+$meet_subheader = get_field('meet_subheader');
 $media_kit_url = get_field('media_kit_url');
+
 ?>
 <div id="home-meet" class="home-section">
   <a name="media-kit" class="scroll-destination"></a>
   <div class="container">
-    <h2>Meet the Top 50 Program Producer</h2>
+    <h2><?php echo $meet_header; ?></h2>
     <div class="header-bottom-border"></div>
-    <h4>The Top 50 Program is produced by Bauer Rock Media Group. BRMG is one of the oldest and largest buyout-centric publishing firms in the US.</h4>
+    <h4><?php echo $meet_subheader; ?></h4>
     <div class="row">
       <div class="col-xs-12 col-sm-6 left">
         <div class="download-container">

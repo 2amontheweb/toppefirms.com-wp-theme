@@ -4,14 +4,19 @@
  *
  * @package Top_PE_Firms
  */
+
+
+$sponsor_header = get_field('sponsor_header');
+$sponsor_subheader = get_field('sponsor_subheader');
+
 ?>
 
 <div id="home-sponsor" class="home-section">
   <a name="sponsor-the-program" class="scroll-destination"></a>
   <div class="container">
-    <h2>Sponsor the Top 50 Program</h2>
+    <h2><?php echo $sponsor_header; ?></h2>
     <div class="header-bottom-border"></div>
-    <h4>Put Your Firm Front and Center with the Top Middle Market Buyout Firms in the US!<span class="strong">These are just a few of the Sponsorshop categories. Contact us for more details.</span></h4>
+    <h4><?php echo $sponsor_subheader; ?></h4>
     <div class="row">
       <div class="col-xs-6 col-sm-3 category">
         <img src="<?php bloginfo('stylesheet_directory'); ?>/img/categories/investment-banking.jpg" alt="Hamilton &amp; Co. Investment Banking">

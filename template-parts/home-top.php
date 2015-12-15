@@ -4,7 +4,9 @@
  *
  * @package Top_PE_Firms
  */
+
 $primary_photo = get_field('primary_photo');
+
 ?>
 
 <div id="home-top" class="home-section" style="background-image:url(<?php echo $primary_photo['url']; ?>)">
